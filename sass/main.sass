@@ -1,0 +1,91 @@
+@import compass/reset, compass/css3,blueprint/form,compass/layout/stretching, blueprint/interaction, blueprint/buttons
+
+$form_width :200px
+
+.container
+	position: fixed
+	width: 340px
+	height: 280px
+	top: 50%
+	left: 50%
+	margin-top: -200px
+	margin-left: -170px
+
+.container h1
+	font-size: 20px
+	text-align: center
+	+text-shadow 
+
+.login-form,
+.login-form h1,
+.login-form span,
+.login-form input,
+.login-form label
+	margin: 0
+	padding: 0
+	border: 0
+	outline: 0
+
+.login-form
+	position: relative
+	width: $form_width
+	padding: 15px 25px 50px 25px
+	margin-top: 20px
+	cursor: default
+	background-color: #aaaaaa
+
+	+border-radius(10px)
+	+blueprint-interaction
+
+.login-form h1
+	line-height: 40px
+	font-family: 'Myriad Pro',sans-serif
+	font-size: 22px
+	font-weight: normal
+	color: #e4e4e4	
+
+.login-form input[type=text],input[type=password]
+	line-height: 20px
+	margin: 10px 0
+	padding: 6px 15px
+	border: 0
+	outline: none
+	width: 80% 
+
+	font-family: Helvetica, sans-serif
+	font-size: 12px
+	font-weight: bold
+	+text-shadow
+	+border-radius(26px)
+
+.login-form input[type=text]:hover,input[type=password]:hover
+	+box-shadow
+
+.login-form input[type=text]:focus,input[type=password]:focus
+	background: #e1e1e1
+	+filter-gradient(#ffffff,#e1e1e1)
+
+.login-form a
+	float: right
+
+.container button,
+.login-form button
+	float: right 
+	color: #686868
+	width: 170px
+	+border-radius(26px)
+	+box-shadow
+	+button-button
+	+button-hover-colors
+
+	#background: #a5cd4e
+	+filter-gradient(#a5cd4e,#6b8f1a)
+
+.container button:hover,
+.login-form button:hover
+	+box-shadow
+
+
+
+
+

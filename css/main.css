@@ -1,0 +1,293 @@
+/* line 17, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../sass/main.sass */
+.container {
+  position: fixed;
+  width: 340px;
+  height: 280px;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -170px;
+}
+
+/* line 14, ../sass/main.sass */
+.container h1 {
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 0px 0px 1px #aaaaaa;
+}
+
+/* line 19, ../sass/main.sass */
+.login-form,
+.login-form h1,
+.login-form span,
+.login-form input,
+.login-form label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+/* line 29, ../sass/main.sass */
+.login-form {
+  position: relative;
+  width: 200px;
+  padding: 15px 25px 50px 25px;
+  margin-top: 20px;
+  cursor: default;
+  background-color: #aaaaaa;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 4, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+.login-form .feedback, .login-form .error, .login-form .alert, .login-form .notice, .login-form .success, .login-form .info {
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border: 2px solid #dddddd;
+}
+/* line 5, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+.login-form .error, .login-form .alert {
+  background: #fbe3e4;
+  color: #8a1f11;
+  border-color: #fbc2c4;
+}
+/* line 27, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+.login-form .error a, .login-form .alert a {
+  color: #8a1f11;
+}
+/* line 7, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+.login-form .notice {
+  background: #fff6bf;
+  color: #514721;
+  border-color: #ffd324;
+}
+/* line 36, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+.login-form .notice a {
+  color: #514721;
+}
+/* line 8, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+.login-form .success {
+  background: #e6efc2;
+  color: #264409;
+  border-color: #c6d880;
+}
+/* line 45, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+.login-form .success a {
+  color: #264409;
+}
+/* line 9, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+.login-form .info {
+  background: #d5edf8;
+  color: #205791;
+  border-color: #92cae4;
+}
+/* line 54, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+.login-form .info a {
+  color: #205791;
+}
+/* line 10, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+.login-form .hide {
+  display: none;
+}
+/* line 11, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+.login-form .highlight {
+  background: yellow;
+}
+/* line 12, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+.login-form .added {
+  background: #006600;
+  color: white;
+}
+/* line 13, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+.login-form .removed {
+  background: #990000;
+  color: white;
+}
+
+/* line 40, ../sass/main.sass */
+.login-form h1 {
+  line-height: 40px;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  color: #e4e4e4;
+}
+
+/* line 47, ../sass/main.sass */
+.login-form input[type=text], input[type=password] {
+  line-height: 20px;
+  margin: 10px 0;
+  padding: 6px 15px;
+  border: 0;
+  outline: none;
+  width: 80%;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 0px 0px 1px #aaaaaa;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
+  -o-border-radius: 26px;
+  border-radius: 26px;
+}
+
+/* line 61, ../sass/main.sass */
+.login-form input[type=text]:hover, input[type=password]:hover {
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+}
+
+/* line 64, ../sass/main.sass */
+.login-form input[type=text]:focus, input[type=password]:focus {
+  background: #e1e1e1;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFE1E1E1');
+}
+
+/* line 68, ../sass/main.sass */
+.login-form a {
+  float: right;
+}
+
+/* line 71, ../sass/main.sass */
+.container button,
+.login-form button {
+  float: right;
+  color: #686868;
+  width: 170px;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
+  -o-border-radius: 26px;
+  border-radius: 26px;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin: 0.7em 0.5em 0.7em 0;
+  border-width: 1px;
+  border-style: solid;
+  font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+  font-size: 100%;
+  line-height: 130%;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  width: auto;
+  overflow: visible;
+  padding: 4px 10px 3px 7px;
+  #background: #a5cd4e;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFA5CD4E', endColorstr='#FF6B8F1A');
+}
+/* line 75, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_buttons.scss */
+.container button img,
+.login-form button img {
+  margin: 0 3px -3px 0 !important;
+  padding: 0;
+  border: none;
+  width: 16px;
+  height: 16px;
+  float: none;
+}
+/* line 95, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_buttons.scss */
+.container button[type],
+.login-form button[type] {
+  padding: 4px 10px 4px 7px;
+  line-height: 17px;
+}
+/* line 98, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_buttons.scss */
+*:first-child + html .container button[type], *:first-child + html
+.login-form button[type] {
+  padding: 4px 10px 3px 7px;
+}
+/* line 62, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_buttons.scss */
+.container button:hover,
+.login-form button:hover {
+  background-color: #dff4ff;
+  border-color: #d2f1ff #c2e1ef #c2e1ef #d2f1ff;
+  color: #336699;
+}
+
+/* line 84, ../sass/main.sass */
+.container button:hover,
+.login-form button:hover {
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+}
